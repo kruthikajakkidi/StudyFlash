@@ -1,0 +1,13 @@
+POST http://localhost:4000/study-api/plans
+Content-Type: application/json
+
+{
+ "topic":"Binary Trees",
+ "format":"flowchart",
+ "level":"basic"
+}
+
+###
+
+GET http://localhost:4000/study-api/plans
+Content-Type: application/json
